@@ -1,0 +1,41 @@
+/* App.css */
+.navbar {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1)); /* Linear gradient background */
+  padding: 20px; /* Increase padding for better spacing */
+  border-radius: 10px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+.navbar ul li:last-child {
+  margin-right: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 30px; /* Rounded corners */
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.7); /* Lighter semi-transparent white on hover */
+  transform: translateY(-2px); /* Move button up slightly on hover */
+}

@@ -1,0 +1,31 @@
+.timer-container {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .timer-display {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #f44336; /* Red color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d32f2f; /* Darker red color */
+  }
+  
